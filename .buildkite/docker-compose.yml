@@ -2,7 +2,7 @@ version: "3"
 services:
   maven:
     # Run pre-built maven image from docker library
-    image: maven:3.8.4
+    image: maven:3.9-amazoncorretto-8
     volumes:
       # Cache maven dependencies
       - $HOME/.m2:/root/.m2
